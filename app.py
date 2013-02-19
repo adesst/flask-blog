@@ -1,5 +1,3 @@
-"""Flask Blog :D """
-
 from functools import wraps
 from flask import Flask, redirect, url_for, session, flash, render_template, request, abort
 from flask.ext.sqlalchemy import SQLAlchemy
